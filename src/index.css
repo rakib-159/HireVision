@@ -1,0 +1,23 @@
+/* src/index.css */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-head {
+    @apply text-3xl sm:text-5xl font-medium text-[#02015a] font-poppins;
+}
+.section-head2 {
+    @apply text-3xl sm:text-6xl font-medium text-[#02015a] font-poppins;
+}
+.card-head {
+    @apply text-xl sm:text-xl font-bold text-[#02015a] font-beVietnam;
+}
+
+.section-para {
+    @apply text-lg font-beVietnam text-[#68708c];
+}
+.card-para {
+    @apply text-lg font-beVietnam text-[#68708c];
+}
